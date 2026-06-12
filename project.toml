@@ -1,0 +1,21 @@
+[project]
+name = "PACK NAME"
+version = "PACK VERSION"
+license-files = ["LICENSE"]
+packages-dir = "packages"
+src-dir = "src"
+
+[[project.authors]]
+name = "SegaBASS (segabass65)"
+email = "segabass65@proton.me"
+
+[[project.authors]]
+name = "PACK AUTHOR"
+email = "PACK AUTHOR'S EMAIL"
+
+[project.urls]
+AuthorMcPackEnv = "https://github.com/segabass65"
+RepositoryMcPackEnv = "https://github.com/segabass65/mc-pack-env"
+
+PackAuthor = "https://github.com/PACK AUTHOR"
+PackRepository = "https://github.com/PACK AUTHOR/PACK REPOSITORY"
