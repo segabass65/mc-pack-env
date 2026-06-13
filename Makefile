@@ -11,7 +11,7 @@ SRC_DIR = $(shell tomlq -r '.project."src-dir"' '$(PROJECT_FILE)')
 
 
 package:
-	ouch c --follow-symlinks \
-		'$(SRC_DIR)'/* \
-		'$(LICENSE_FILE)' \
-		'$(PACKAGES_DIR)/$(NAME)-$(VERSION).zip'
+	@minizip -o -f \
+		'$(PACKAGES_DIR)/$(NAME)-$(VERSION).zip' \
+		'$(SRC_DIR)' \
+		'$(LICENSE_FILE)'

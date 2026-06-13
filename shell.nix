@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {} }: pkgs.mkShell {
   nativeBuildInputs = with pkgs; [
     gnumake
-    ouch
+    minizip-ng
     yq
   ]; 
 }
