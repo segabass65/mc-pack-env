@@ -1,21 +1,27 @@
 [project]
 name = "PACK NAME"
 version = "PACK VERSION"
-license-files = ["LICENSE"]
 packages-dir = "packages"
 src-dir = "src"
 
-[[project.authors]]
+# Optional
+# [[project.authors]]
+# name = "PACK AUTHOR"
+# email = "PACK AUTHOR'S EMAIL"
+
+# Optional
+# [project.urls]
+# Author = "PACK AUTHOR URL"
+# Repository = "PACK REPOSITORY URL"
+# Modrinth = " PACK MODRINTH URL"
+# CurseForge = "PACK CURSEFORGE URL"
+
+# Keep this
+[[tool.mc-pack-env.authors]]
 name = "SegaBASS (segabass65)"
 email = "segabass65@proton.me"
 
-[[project.authors]]
-name = "PACK AUTHOR"
-email = "PACK AUTHOR'S EMAIL"
-
-[project.urls]
-AuthorMcPackEnv = "https://github.com/segabass65"
-RepositoryMcPackEnv = "https://github.com/segabass65/mc-pack-env"
-
-PackAuthor = "https://github.com/PACK AUTHOR"
-PackRepository = "https://github.com/PACK AUTHOR/PACK REPOSITORY"
+# Optional
+[tool.mc-pack-env.urls]
+Author = "https://github.com/segabass65"
+Repository = "https://github.com/segabass65/mc-pack-env"
