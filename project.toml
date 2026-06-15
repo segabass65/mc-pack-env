@@ -1,7 +1,7 @@
 [project]
 name = "PACK NAME"
 version = "PACK VERSION"
-packages-dir = "packages"
+packs-dir = "packs"
 src-dir = "src"
 
 # Optional
