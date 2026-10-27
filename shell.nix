@@ -2,6 +2,7 @@
   nativeBuildInputs = with pkgs; [
     gnumake
     minizip-ng
+    nixd
     yq
   ]; 
 }
